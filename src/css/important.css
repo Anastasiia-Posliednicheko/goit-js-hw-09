@@ -1,0 +1,23 @@
+ul {
+    list-style: none;
+    padding: 50px 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+
+.link-list {
+    font-size: 18px;
+    color: #333;
+    padding: 10px 20px;
+    border: 2px solid #333;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    background-color: #333;
+    color: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
